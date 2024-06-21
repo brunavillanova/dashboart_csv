@@ -28,9 +28,7 @@ if uploaded_file is not None:
     st.header('Dados da Planilha')
     st.dataframe(df)
 
-    # Estatísticas descritivas
-    st.header('Estatísticas Descritivas')
-    st.write(df.describe())
+  
 
     # Filtro por coluna "Matrícula"
     st.sidebar.header('Filtro por Matrícula')
